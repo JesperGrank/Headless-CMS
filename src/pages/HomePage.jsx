@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import { Link } from 'react-router-dom';
 const parse = require('html-react-parser');
 
 export default function HomePage() {
@@ -27,6 +28,7 @@ export default function HomePage() {
                 <div key={post.id}>
                     {parse(post.title)}
                     {parse(post.content)}
+                    <Link to={`/posts/${post.ID}`}>Read more...</Link>
                     <hr></hr>
 
                  </div>
