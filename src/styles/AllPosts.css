@@ -1,0 +1,8 @@
+.AllPosts{
+    margin: 50px auto;
+    width: 45%;
+}
+
+.AllPosts a:visited{
+    color:black;
+}

@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom';
+import '../styles/AllPosts.css'
 const parse = require('html-react-parser');
 
 export default function HomePage() {
@@ -23,7 +24,7 @@ export default function HomePage() {
 
         {posts && posts.map((post) => {
             return(
-                <div key={post.ID}>
+                <div key={post.ID} className="AllPosts">
                     <h2>{parse(post.title)}</h2>
                     <Link to={`/posts/${post.ID}`}>Read more...</Link>
                     <hr></hr>
