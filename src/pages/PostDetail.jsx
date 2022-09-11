@@ -23,7 +23,7 @@ export default function PostDetail() {
     <div>
       Post ID: {id}
       <div>
-      {post && post.title}
+      {post && <h2>{post.title}</h2>}
       {post.content && parse(post.content)}
 
       </div>
