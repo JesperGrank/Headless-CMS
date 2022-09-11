@@ -20,14 +20,11 @@ export default function HomePage() {
 
   return (
     <div>
-        <h2>HomePage.jsx</h2>
-        <p> Rendera innehåll från API </p>
 
         {posts && posts.map((post) => {
             return(
-                <div key={post.id}>
-                    {parse(post.title)}
-                    {parse(post.content)}
+                <div key={post.ID}>
+                    <h2>{parse(post.title)}</h2>
                     <Link to={`/posts/${post.ID}`}>Read more...</Link>
                     <hr></hr>
 
