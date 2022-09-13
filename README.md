@@ -1,18 +1,20 @@
 # 1: Setting up this project as a boilerplate
 
-## 1.1: Fork or clone this project to chosen directory onto your computer
-## 1.2: Run `` npm install`` in your terminal
-## 1.3: Add an " .env " file in the root catalog, that file should contain your [https://wordpress.com](https://wordpress.com) API URL.
+### 1.1: Fork or clone this project to chosen directory onto your computer
+### 1.2: Run `` npm install`` in your terminal
+### 1.3: Add an " .env " file in the root catalog, that file should contain your [https://wordpress.com](https://wordpress.com) API URL.
 ![Setup of .env file](https://raw.githubusercontent.com/JesperGrank/headless-cms/main/descriptive-images/Env1.png)
-## 1.4: Run ``npm start`` in your terminal and go to [http://localhost:3000](http://localhost:3000) to see changes to your app.
+### 1.4: Run ``npm start`` in your terminal and go to [http://localhost:3000](http://localhost:3000) to see changes to your app.
 
-<br>
+---
+
+
 <br>
 
 # 2: Deploy via Vercel
 
-## 2.1: Open [https://vercel.com](https://vercel.com) and sign in with your Github credentials
-## 2.2: Import which repository you want to deploy and match the environment variables from your editor to the application
+### 2.1: Open [https://vercel.com](https://vercel.com) and sign in with your Github credentials
+### 2.2: Import which repository you want to deploy and match the environment variables from your editor to the application
 ![Description of what fields to be filled in](https://raw.githubusercontent.com/JesperGrank/headless-cms/main/descriptive-images/Deploy1.png)
 
 <!-- In the project directory, you can run:
