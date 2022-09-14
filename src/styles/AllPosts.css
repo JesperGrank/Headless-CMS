@@ -3,6 +3,10 @@
     width: 45%;
 }
 
+.AllPosts a:link{
+    color:rgb(0, 0, 0);
+}
+
 .AllPosts a:visited{
-    color:black;
+    color:rgb(0, 0, 0);
 }
