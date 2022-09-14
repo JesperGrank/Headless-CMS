@@ -26,7 +26,7 @@ export default function HomePage() {
             return(
                 <div key={post.ID} className="AllPosts">
                     <h2>{parse(post.title)}</h2>
-                    <Link to={`/posts/${post.ID}`}>Read more...</Link>
+                    <Link className='AllPosts' to={`/posts/${post.ID}`}>Read more...</Link>
                     <hr></hr>
 
                  </div>
