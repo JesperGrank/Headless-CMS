@@ -1,4 +1,7 @@
-# 1: Setting up this project as a boilerplate
+# Project description 
+This is a written guide on how to create a headless CMS project by using https://wordpress.com as your API. This project is built with React but you may swap that to whichever library suits you the best.
+
+## 1: Setting up this project as a boilerplate
 
 ### 1.1: Fork or clone this project to chosen directory onto your computer
 ### 1.2: Run `` npm install`` in your terminal
@@ -11,11 +14,15 @@
 
 <br>
 
-# 2: Deploy via Vercel
+## 2: Deploy via Vercel
 
 ### 2.1: Open [https://vercel.com](https://vercel.com) and sign in with your Github credentials
 ### 2.2: Import which repository you want to deploy and match the environment variables from your editor to the application
 ![Description of what fields to be filled in](https://raw.githubusercontent.com/JesperGrank/headless-cms/main/descriptive-images/Deploy1.png)
+### 2.3: Click deploy - enjoy coding.
+
+Anytime you push or merge new code to your main branch, the deployed vercel application will be updated.
+
 
 <!-- In the project directory, you can run:
 
