@@ -3,7 +3,7 @@ This is a written guide on how to create a headless CMS project by using https:/
 
 ## 1: Setting up this project as a boilerplate
 
-### 1.1: Fork or clone this project to chosen directory onto your computer
+### 1.1: Fork or clone this project into chosen directory on your computer
 ### 1.2: Run `` npm install`` in your terminal
 ### 1.3: Add an " .env " file in the root catalog, that file should contain your [https://wordpress.com](https://wordpress.com) API URL.
 ![Setup of .env file](https://raw.githubusercontent.com/JesperGrank/headless-cms/main/descriptive-images/Env1.png)
