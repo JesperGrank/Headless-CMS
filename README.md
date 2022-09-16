@@ -8,6 +8,8 @@ This is a written guide on how to create a headless CMS project by using https:/
 ### 1.3: Add an " .env " file in the root catalog, that file should contain your [https://wordpress.com](https://wordpress.com) API URL.
 ![Setup of .env file](https://raw.githubusercontent.com/JesperGrank/headless-cms/main/descriptive-images/Env1.png)
 ### 1.4: Run ``npm start`` in your terminal and go to [http://localhost:3000](http://localhost:3000) to see changes to your app.
+### 1.5: You need a wordpress account for posting new blog posts. https://wordpress.com/learn/get-started/
+### 1.6: Send your wordpress -Email or -Username to admin to get access to this CMS: jesper.grankvist@hotmail.com
 
 ---
 
@@ -22,6 +24,9 @@ This is a written guide on how to create a headless CMS project by using https:/
 ### 2.3: Click deploy - enjoy coding.
 
 Anytime you push or merge new code to your main branch, the deployed vercel application will be updated.
+
+# Contact
+Admin Jesper Grankvist - jesper.grankvist@hotmail.com
 
 
 <!-- In the project directory, you can run:
